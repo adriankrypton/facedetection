@@ -53,6 +53,7 @@ cap = cv2.VideoCapture(0)
 while True:
     success, img = cap.read()  # Reading Each frame
     
+    
     # Resize the frame
     Current_image = cv2.resize(img,(0,0),None,scale,scale)
     Current_image = cv2.cvtColor(Current_image, cv2.COLOR_BGR2RGB)
