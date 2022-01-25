@@ -1,5 +1,4 @@
 import cv2
-
 face_cascade = cv2.CascadeClassifier('haarcascade_profileface.xml')
 cap = cv2.VideoCapture(0)
 while True
