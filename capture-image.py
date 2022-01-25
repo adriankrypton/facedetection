@@ -4,7 +4,7 @@ import cv2
 
 # Take input of the person name
 
-name = input("Enter name:  ")
+name = input("Name eingeben:  ")
 
 # Create the videocapture object
 cap = cv2.VideoCapture(0)
